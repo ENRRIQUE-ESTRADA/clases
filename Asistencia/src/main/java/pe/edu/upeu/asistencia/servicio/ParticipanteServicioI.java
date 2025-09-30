@@ -10,10 +10,10 @@ public interface ParticipanteServicioI {
 
     List<Participante> findAll(); // R
 
-    void update(Participante participante, int index); //U
+    Participante update(Participante participante); //U
 
-    void delete(int index); //D
+    void delete(String dni); //D
 
-    Participante findById(int index); //Buscar
+    Participante findById(int index ); //Buscar
 
 }
